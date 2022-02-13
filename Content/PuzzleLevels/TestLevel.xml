@@ -1,0 +1,17 @@
+<Level Width="4" Height="2">
+  <Point PositionX="2" PositionY="0"/>
+  <Point PositionX="3" PositionY="0"/>
+  <Point PositionX="0" PositionY="1"/>
+  <Point PositionX="1" PositionY="1"/>
+  <Point PositionX="2" PositionY="1"/>
+  <Point PositionX="3" PositionY="1"/>
+  <Destination PointIndex="0" Color="Red"/>
+  <Destination PointIndex="1" Color="Blue"/>
+  <Truck PointIndex="2" StartDelay="0" Route="RRUDRU">
+    <Container Color="Red" Amount="2"/>
+    <Container Color="Blue" Amount="1"/>
+  </Truck>
+  <Truck PointIndex="0" StartDelay="3" Route="RRU">
+    <Container Color="Red" Amount="1"/>
+  </Truck>
+</Level>
