@@ -1,1 +1,1 @@
-# lucid
+Lucid is a puzzle game about synchronization issues in computer science. The goal is to make use of synchronization primitives such as mutexes and semaphores to avoid deadlocks. A "level" of Lucid (currently) consists of resources, users of these resources, and points that these entities can stand on. A deadlock can happen if more than one user tries to use a resource. The game is currently in its early development stage.
